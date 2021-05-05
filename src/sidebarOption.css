@@ -1,0 +1,52 @@
+.sidebarOption {
+
+display: flex;
+align-items: center;
+height:40px;
+padding: 0 10px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+
+cursor: pointer;
+color: gray;
+}
+
+.sidebarOption:hover,
+.sidebarOption:hover > p,
+.sidebarOption:hover > h4,
+.sidebar--active,
+.sidebar--active > p,
+.sidebar--active > h3 {
+
+
+    background-color:#FFB6C1;
+    color:white;
+    font-weight: 800 !important;
+
+}
+
+
+
+.sidebarOption > .MuiSvgIcon-root{
+
+cursor: pointer;
+color: gray;
+}
+.sidebarOption > h4{
+flex: 1;
+margin-left: 10px;
+font-weight: 500;
+
+}
+.sidebarOption > p{
+display:none;
+    font-weight: 300;
+}
+
+.sidebar--active > p {
+display: inline !important;
+}
+
+.sidebarOption:hover > p {
+display: inline;
+}
